@@ -1,0 +1,66 @@
+.active{
+background-color: #ffff007c !important;
+margin:2% !important;
+width:14%;
+}
+.deaths{
+background-color: orangered !important;
+margin:2% !important;
+width:14%;
+}
+.recovered{
+    background-color: lawngreen !important;
+    margin:2% !important;
+    width:14%;
+}
+.confirmed{
+background-color: cornflowerblue !important;
+margin:2% !important;
+width:14%;
+}
+.statisticsCards{
+    margin: 2% !important;
+    padding-left: 5%;
+    padding-right: 5%;
+    width:auto
+}
+.dontShow{
+    display:none !important;
+}
+.titleDisplayer{
+    padding-left: 32%;
+    padding-top: 2%;
+}
+.caseNumber{
+    font-weight: bolder;
+}
+.caseText{
+    font-weight: bolder;
+}
+
+@media only screen and (max-width: 800px){
+    .active{
+        background-color: #ffff007c !important;
+        margin:2% !important;
+        width:50%;
+        }
+        .deaths{
+        background-color: orangered !important;
+        margin:2% !important;
+        width:50%;
+        }
+        .recovered{
+            background-color: lawngreen !important;
+            margin:2% !important;
+            width:50%;
+        }
+        .confirmed{
+        background-color: cornflowerblue !important;
+        margin:2% !important;
+        width:50%;
+        }    
+        .titleDisplayer{
+            padding-left: 20%;
+            padding-top: 2%;
+        }
+  }
